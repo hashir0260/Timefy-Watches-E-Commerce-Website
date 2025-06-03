@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: 'Segoe UI', sans-serif;
+  color: #F7D44C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 10px;
+  width: 360px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #F7D44C;
+  font-size: 22px;
+}
+
+.auth-container input[type="email"],
+.auth-container input[type="password"],
+.auth-container input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.auth-container input[type="email"],
+.auth-container input[type="password"] {
+  background-color: #1a1a1a;
+  color: #F7D44C;
+  border: 1px solid #333;
+}
+
+.auth-container input[type="submit"] {
+  background-color: #F7D44C;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container input[type="submit"]:hover {
+  background-color: #e5c83b;
+}
+
+.auth-container p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.auth-container a {
+  color: #F7D44C;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.auth-container a:hover {
+  text-decoration: underline;
+}
+
+.error-msg {
+  color: #ff4c4c;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}

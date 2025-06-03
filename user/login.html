@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timefy | Login</title>
+  <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+  <div class="auth-container">
+    <h2>Login to Timefy</h2>
+
+    <?php if (!empty($error)): ?>
+      <div class="error"><?= htmlspecialchars($error) ?></div>
+    <?php endif; ?>
+
+    <form action="login.php" method="POST">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Email" required autofocus>
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="Password" required>
+
+      <input type="submit" value="Login">
+    </form>
+    <p>Don't have an account? <a href="register.html">Register here</a></p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+/* admin_style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #F7D44C;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #F7D44C;
+}
+
+a {
+  color: #F7D44C;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #1E1E1E;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #F7D44C44;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table thead {
+  background-color: #F7D44C;
+  color: #121212;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  border: 1px solid #F7D44C88;
+  text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #2C2C2C;
+}
+
+button, input[type="submit"] {
+  background-color: #F7D44C;
+  border: none;
+  padding: 10px 18px;
+  color: #121212;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #d6b93e;
+}
+
+input[type="text"], input[type="number"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #F7D44C88;
+  border-radius: 5px;
+  background-color: #121212;
+  color: #F7D44C;
+}
+
+label {
+  margin-top: 15px;
+  display: block;
+  font-weight: 600;
+}
+
+.error {
+  color: #FF6B6B;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* admin login & register forms */
+
+.auth-container {
+  max-width: 400px;
+  margin: 80px auto;
+  background-color: #1E1E1E;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #F7D44C55;
+  color: #F7D44C;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.auth-container label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.auth-container input[type="text"],
+.auth-container input[type="password"],
+.auth-container input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #F7D44C88;
+  background-color: #121212;
+  color: #F7D44C;
+  font-size: 16px;
+}
+
+.auth-container input[type="submit"] {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #F7D44C;
+  border: none;
+  padding: 14px;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #121212;
+}
+
+.auth-container input[type="submit"]:hover {
+  background-color: #d6b93e;
+}
+
+.auth-container .error {
+  color: #FF6B6B;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.auth-container p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.auth-container p a {
+  color: #F7D44C;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-container p a:hover {
+  text-decoration: underline;
+}

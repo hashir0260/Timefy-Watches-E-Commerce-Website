@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #F7D44C;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #111;
+}
+
+header img {
+  height: 60px;
+}
+
+nav a {
+  color: #F7D44C;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+.cart-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.cart-container h1,
+.cart-container p,
+.cart-total p,
+.cart-total strong {
+  color: #F7D44C;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  color: #F7D44C;
+}
+
+table th, table td {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+  color: #F7D44C;
+}
+
+table img {
+  width: 80px;
+  border-radius: 5px;
+}
+
+.cart-total {
+  text-align: right;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #F7D44C;
+  color: #000;
+  border: none;
+  padding: 12px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #d1b83c;
+}
+
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #F7D44C;
+}
+
+/* Quantity control styles */
+.qty-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1.5px solid #F7D44C;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #111;
+  width: 100px;
+}
+
+.qty-control button {
+  width: 24px;
+  height: 24px;
+  background-color: #F7D44C;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  padding: 0;
+}
+
+.qty-control button:hover {
+  background-color: #d1b83c;
+}
+
+.qty-control input[type="number"] {
+  width: 48px;
+  height: 24px;
+  padding: 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #F7D44C;
+  background-color: #000;
+  border: none;
+  outline: none;
+}
+
+/* Hide default input number arrows */
+.qty-control input[type=number]::-webkit-inner-spin-button,
+.qty-control input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove button style */
+.remove-btn {
+  background-color: #ff4d4d;
+  color: #F7D44C;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #e04343;
+}
+
+/* Update cart button */
+.update-btn {
+  background-color: #F7D44C;
+  color: #000;
+  border: none;
+  padding: 12px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.update-btn:hover {
+  background-color: #d1b83c;
+}
+
+/* Checkout button */
+.checkout-btn {
+  background-color: #222;
+  color: #F7D44C;
+  border: 2px solid #F7D44C;
+  padding: 12px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.checkout-btn:hover {
+  background-color: #F7D44C;
+  color: #000;
+}
